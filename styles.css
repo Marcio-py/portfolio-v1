@@ -1,0 +1,31 @@
+body{
+background-color: #000;;
+}
+
+.navbar-scrolled {
+    background-color: #146C94;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+    transition: 0.7s;
+}
+
+.intro{
+    background-image: url(pic/pexels-pixabay-247676.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.intro  {
+    color: white;
+}
+
+.intro span {
+    color: #AFD3E2;
+}
+
+#featured-3 {
+    color: #F6F1F1;
+}
+
+#featured-3 h2, .fs-2 {
+    color: #AFD3E2;;
+}
