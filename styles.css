@@ -22,6 +22,18 @@ background-color: #000;;
     color: #AFD3E2;
 }
 
+.about-me{
+    height: 80vh;
+    border: 2px solid white;
+
+}
+
+#about-text {
+    border: 2px solid #146C94;
+    width: 70%;
+    color: white;
+}
+
 #featured-3 {
     color: #F6F1F1;
 }
