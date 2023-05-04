@@ -1,0 +1,78 @@
+body{
+background-color: #000;
+}
+
+.navbar-scrolled {
+    background-color: #146C94;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+    transition: 0.7s;
+}
+
+.intro{
+    background-image: url(pic/pexels-pixabay-247676.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.intro  {
+    color: white;
+}
+
+.intro span {
+    color: #AFD3E2;
+}
+
+.about-me{
+    height: 80vh;
+    background-color: #146C94;
+
+}
+
+#about-text {
+    background-color: #000;
+    border: 2px solid #fff;
+    width: 70%;
+    color: white;
+}
+
+#featured-3{
+    text-align: center;
+}
+
+#skills-container {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+h2, h5{
+    color: #fff;
+}
+
+.card{
+    background-color: #146C94;
+    border: 2px solid #146C94;
+}
+ul {
+    color: #fff;
+}
+
+#contactos{
+    background-color: #146C94;
+    color: #fff;
+}
+
+.form-control::placeholder{
+    color: #146C94;
+}
+
+.form-control:focus{
+    background-color: #000;
+    color: #fff;
+}
+
+.form-control{
+
+    color: white;
+    background-color: #146C94;
+}
