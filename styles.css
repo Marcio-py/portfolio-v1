@@ -1,5 +1,5 @@
 body{
-background-color: #fff;
+background-color: #000;
 }
 
 .navbar-scrolled {
@@ -24,12 +24,13 @@ background-color: #fff;
 
 .about-me{
     height: 80vh;
-    border: 2px solid white;
+    background-color: #146C94;
 
 }
 
 #about-text {
-    border: 2px solid #146C94;
+    background-color: #000;
+    border: 2px solid #fff;
     width: 70%;
     color: white;
 }
@@ -44,12 +45,34 @@ background-color: #fff;
 
 }
 
-#featured-3 h2, .fs-2 {
-    color: #AFD3E2;;
+h2, h5{
+    color: #fff;
 }
 
 .card{
-    background-color: #000;
+    background-color: #146C94;
     border: 2px solid #146C94;
+}
+ul {
+    color: #fff;
+}
+
+#contactos{
+    background-color: #146C94;
+    color: #fff;
+}
+
+.form-control::placeholder{
     color: #146C94;
+}
+
+.form-control:focus{
+    background-color: #000;
+    color: #fff;
+}
+
+.form-control{
+
+    color: white;
+    background-color: #146C94;
 }
